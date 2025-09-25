@@ -48,9 +48,9 @@ for (alumno in alumnos) {
 }
 
 boton.addEventListener("click", () => {
-  let confirmar = confirm("Realmente queires confirmar las mesas?");
+  let confirmar = confirm("Realmente quieres confirmar las mesas?");
   if (confirmar) {
-    contenedor.body.removeChild(boton)
+    contenedor.body.removeChild(boton);
     let elementos = document.querySelectorAll(".semana");
     let semanasElegidas = document.querySelectorAll(".semana-elegida");
     for (elemento in elementos) {
